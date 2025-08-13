@@ -1,2 +1,6 @@
-# auto-greeter
-A simple Python script that prints a personalized greeting
+def greet(name):
+    """Print a personalized greeting."""
+    print(f"Hello, {name}! Welcome to our program.")
+
+# Example usage
+greet("Alice")
